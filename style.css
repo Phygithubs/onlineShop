@@ -1,0 +1,696 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(160, 147, 147, 0.603);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 2px 3px 3px rgb(110, 95, 95);
+    position: fixed;
+    z-index: 99;
+
+}
+
+.header .logo {
+    padding: 10px 15px;
+}
+
+.header .logo ul li {
+    list-style-type: none;
+    width: auto;
+}
+
+.header .logo ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: wheat;
+    display: block;
+    padding: 18px 25px;
+}
+
+.header .logo ul li a:hover {
+    color: black;
+    /* background-color: rgb(47, 49, 22); */
+}
+
+.header .menu ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header .menu ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    transition: all 0.3s ease;
+
+}
+
+.header .menu ul li a:hover {
+    color: black;
+    /* background-color: rgb(59, 67, 57); */
+    font-size: 22px;
+}
+
+.header .icons ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .icons ul li {
+    list-style-type: none;
+    margin-left: 28px;
+}
+
+.header .icons ul li a {
+    text-decoration: none;
+}
+
+.header .icons ul li a i {
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    display: block;
+    padding: 17px 20px;
+    transition: all 0.2s ease;
+}
+
+.header .icons ul li a:hover i {
+    color: black;
+    /* background-color: rgb(59, 67, 57); */
+    font-size: 32px;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(104, 12, 190); */
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner .ban_text {
+    width: 500px;
+    height: 290px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.banner .ban_text h2 {
+    color: rgb(223, 71, 16);
+    margin: 5px 0px;
+}
+
+.banner .ban_text p {
+    color: black;
+}
+
+.banner .ban_text button[type=button] {
+    width: 130px;
+    padding: 8px 5px;
+    font-size: 20px;
+    background-color: rgb(236, 228, 155);
+    color: rgb(57, 20, 20);
+    border-radius: 5px;
+    margin-top: 10px;
+    position: absolute;
+    left: 70%;
+    transition: all 0.3s ease;
+
+}
+
+.banner .ban_text button[type=button]:hover {
+    color: black;
+    background-color: brown;
+    font-size: 20px;
+
+}
+
+.About {
+    width: 80%;
+    height: 500px;
+    /* background-color: aqua; */
+    margin: 20px auto;
+}
+
+.About .about-up {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(213, 195, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-down_left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-down_right p {
+    margin: 25px 0px;
+}
+
+.About .about-down {
+    width: 100%;
+    height: 75%;
+    /* background-color: rgb(40, 21, 57); */
+    display: flex;
+    /* box-shadow: 5px 0px rgb(94, 88, 56); */
+
+}
+
+.About .about-down .about-down_left {
+    width: 50%;
+    height: 100%;
+    /* border: 5px solid rgb(34, 100, 222);
+    background-color: rgb(126, 80, 134); */
+
+
+
+}
+
+.About .about-down .about-down_right {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(123, 24, 68); */
+    padding: 30px 30px;
+    position: relative;
+    /* border: 5px solid rgb(86, 85, 81); */
+
+
+
+
+}
+
+.about-down_right #btn {
+    width: 150px;
+    padding: 10px 10px;
+    font-size: 15px;
+    /* background-color: brown; */
+    color: rgb(117, 10, 10);
+    border-radius: 5px;
+    /* border: 10px; */
+    transition: all 0.3s ease;
+}
+
+.about-down_right #btn:hover {
+    background-color: rgb(137, 87, 87);
+    color: black;
+}
+
+.about-down_right #btn {
+    /* background-color: blueviolet; */
+    position: absolute;
+    right: 70px;
+    content: white;
+
+}
+
+.pic-item {
+    width: 100%;
+    height: 250px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.pic-item .pic-item-1 {
+    width: 3%;
+    height: 100%;
+    /* background-color: rgb(54, 17, 89); */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pic-item .pic-item-1 h1 i,
+.pic-item-7 h1 i {
+    font-size: 40px;
+    color: black;
+}
+
+.pic-item .pic-item-2 {
+    width: 18%;
+    height: 100%;
+    /* background-color: rgb(210, 149, 17); */
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.pic-item .pic-item-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+
+.pic-item .pic-item-3 {
+    width: 18%;
+    height: 100%;
+    /* background-color: rgb(34, 144, 84); */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pic-item .pic-item-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+
+.pic-item .pic-item-4 {
+    width: 18%;
+    height: 100%;
+    /* background-color: rgb(89, 17, 45); */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pic-item .pic-item-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+
+.pic-item .pic-item-5 {
+    width: 18%;
+    height: 100%;
+    /* background-color: rgb(186, 141, 229); */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pic-item .pic-item-5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+
+.pic-item .pic-item-6 {
+    width: 18%;
+    height: 100%;
+    /* background-color: rgb(43, 14, 70); */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pic-item .pic-item-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+
+.pic-item .pic-item-7 {
+    width: 3%;
+    height: 100%;
+    /* background-color: rgb(45, 39, 50); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-item .pic-item-2:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+
+.pic-item .pic-item-3:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+
+.pic-item .pic-item-4:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+
+.pic-item .pic-item-5:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+
+.pic-item .pic-item-6:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+.product {
+    width: 100%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    padding: 40px 70px;
+}
+
+.product .pro-header {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(69, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .pro-header h1{
+    text-align: center;
+}
+
+
+.product .pro-menu {
+    width: 100%;
+    height: 15%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .pro-menu ul{
+    display: flex;
+}
+
+.product .pro-menu ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.product .pro-menu ul li a{
+    text-decoration: none;
+    /* color: aqua; */
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    transition: all 0.3s ease;
+}
+.product .pro-menu ul li a:hover{
+    color: black;
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+.product .pro-item {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(148, 148, 231);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+
+}
+
+.product .pro-item .item1 {
+    width: 23%;
+    height: 100%;
+    background-color: blanchedalmond;
+    box-shadow: 2px 10px 8px 10px rgb(102, 73, 73);
+}
+
+.pro-item .item1 .pic {
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.item1 .pic .icons {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: -30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.item1 .pic .icons span {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 .pic-icons span i {
+    color: brown;
+}
+
+.product .pro-item .item1:hover .icons {
+    bottom: 0%;
+    transition: 0.3s;
+}
+
+.item1 .pic .icons span:hover i{
+    transform: rotate(360deg);
+    transition: all 0.7s;
+    
+    
+}
+
+.pro-item .item1 .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 2px 10px 8px 10px rgb(102, 73, 73);
+}
+
+.pro-item .item1 .text {
+    width: 100%;
+    height: 30%;
+    /* background-color: brown; */
+    text-align: center;
+    padding: 40px;
+}
+
+.pro-item .item1 .text p{
+    font-size: 30px;
+    color: rgb(15, 15, 18);
+}
+
+.pro-item .item1 .text h2{
+    font-size: 30px;
+    color: black;
+    padding: 15px;
+}
+
+.product .pro-item .item2 {
+    width: 23%;
+    height: 100%;
+    background-color: rgb(169, 116, 36);
+}
+
+.product .pro-item .item3 {
+    width: 23%;
+    height: 100%;
+    background-color: rgb(83, 10, 13);
+}
+
+.product .pro-item .item4 {
+    width: 23%;
+    height: 100%;
+    background-color: rgb(10, 246, 6);
+}
+
+/* =====================costumer reviews */
+.costomer{
+    width: 90%;
+    height:500px;
+    /* background-color: blue; */
+    margin: 0px auto;
+
+}
+
+.cos-head{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(222, 198, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    box-shadow: 5px 2px 3px 2px color rgb(105, 73, 73);
+}
+
+.cos-body{
+    width: 100%;
+    height: 80%;
+    /* background-color: brown; */
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 500px;
+}
+
+.cos-body .cos-b1{
+    width: 23%;
+    height: 100%;
+    /* background-color: aqua; */
+    box-shadow: 5px 5px 3px 3px rgb(101, 82, 82);
+    border-radius: 10px;
+    
+}
+
+
+.cos-body .cos-b1 .star{
+    width: 100%;
+    height: 15%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    color: rgb(30, 22, 22);
+    font-weight: bold;
+}
+
+.cos-body .cos-b1 .text{
+    width: 100%;
+    height: 55%;
+    /* background-color: red; */
+    padding: 0px 8px;
+}
+
+.cos-body .cos-b1 .profile{
+    width: 100%;
+    height: 30%;
+    /* background-color: blueviolet; */
+    display: flex;
+    
+}
+
+.cos-body .profile .pro1{
+    width: 34%;
+    height: 100%;
+    /* background-color: chocolate; */
+    clip-path: circle(40%);
+}
+
+.cos-body .profile .pro1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cos-body .profile .pro2{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(80, 9, 244); */
+    padding: 15px 7px;
+    color: black;
+}
+
+.cos-body .profile .pro2 p{
+    font-size: 15px;
+}
+
+.cos-body .profile .pro3{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(27, 12, 2); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cos-body .profile .pro3 i{
+    font-size: 70px;
+    color: rgba(81, 52, 52, 0.43);
+}
+
+.cos-body .cos-b2{
+    width: 23%;
+    height: 100%;
+    /* background-color: rgb(8, 233, 16); */
+}
+
+.cos-body .cos-b3{
+    width: 23%;
+    height: 100%;
+    /* background-color: rgb(194, 14, 217); */
+}
+
+.cos-body .cos-b4{
+    width: 23%;
+    height: 100%;
+    /* background-color: rgb(221, 156, 18); */
+}
+/* ===========================contact============== */
+.contact{
+    width: 80%;
+    height: 500px;
+    background-color: black;
+    margin: 40px auto;
+}
+
+.contact .con-1{
+    width: 100%;
+    height: 20%;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+.contact .con-2{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(95, 43, 226);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact  .con-2 .con2-box1{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(238, 238, 7);
+}
+
+.contact  .con-2 .con2-box2{
+    width: 45%;
+    height: 100%;
+    background-color: brown;
+}
+
